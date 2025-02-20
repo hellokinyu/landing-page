@@ -1,0 +1,192 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }  
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 256px 16px 288px;
+    text-align: center;
+    border: solid #f9faf8 2px;
+    background-image: url("https://pbs.twimg.com/profile_images/1888499276042375168/j8rJ7yHB_400x400.jpg");
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.header-links{
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    align-self: center;
+}
+
+.header-links a{
+    color:#000000;
+    text-decoration: none;
+}
+/* header section ^^ */
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    padding: 128px 256px;
+    background-image: url("https://media.gettyimages.com/id/1607459077/photo/2023-world-scout-jamboree-closing-ceremony-and-k-pop-super-live-concert.jpg?s=1024x1024&w=gi&k=20&c=loznP4BlIQiiwwZ-lwGw_SLl-04KWaPC2eJywyfua7c=");
+}
+
+.intro-left {
+    padding: 32px;
+    font-size: 48px;
+    color: #f8f8f8;
+    font-weight: 900;
+}
+
+.intro-left h1 {
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+
+}
+
+.intro-left div {
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    padding: 10px;
+    background-color:#040404;
+    color:#f9faf8;
+    border: white solid 4px;
+
+}
+
+.intro-left div {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro-left button {
+    background-color: #c84c4c;
+    color: #e5e7eb;
+    font-size: 20px;
+    border: white solid 4px;
+    
+}
+.intro-right {
+    align-self: center;
+}
+
+/* intro stuff ^^ */
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    padding: 64px;
+}
+
+.info-header {
+    text-align: center;
+    margin: 32px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.info-body {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.info-body-photo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 170px;
+    text-align: center;
+
+}
+
+.info-body-photo img {
+    border: solid rgb(130, 130, 255) 6px;
+    border-radius: 16px;
+}
+
+
+/* info stuff ^^ */
+
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 128px 450px;
+
+}
+
+.quote-text {   
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+
+
+}
+
+.quote-author {
+}
+
+/* quote */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    background-color: #f9faf8;
+    color: white;
+
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+    padding: 48px 96px;
+    background-color: #3882F6;
+    border-radius: 10px;
+
+
+}
+
+.cta-text h3 {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+.cta-text p {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+.cta button{
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 5px;
+    border-color: #f9faf8;
+    border-style: solid;
+    font-size: large;
+    padding: 4px 16px;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    background-color: #1f2937;
+    color: #f9faf8;
+}   
